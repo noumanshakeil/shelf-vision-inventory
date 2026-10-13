@@ -1,0 +1,12 @@
+{
+  "project": "shelf-vision-inventory",
+  "resource": "shelves",
+  "samples": [
+    {
+      "id": "sh1",
+      "aisle": "A3",
+      "sku_hint": "cola-12pk",
+      "count": 18
+    }
+  ]
+}
