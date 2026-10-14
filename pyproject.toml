@@ -1,0 +1,13 @@
+[project]
+name = "shelf-vision-inventory"
+version = "2.0.0"
+description = "Shelf scan ingest with mock SKU detections, stock gap analysis, and restock list generation — offline vision stubs for planogram workflows."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
